@@ -1,6 +1,5 @@
 #load libraries
 library(dplyr)
-library(g)
 
 #load data into R
 trafficstops <- read.csv("~/learn/MS_cleaned.csv")
