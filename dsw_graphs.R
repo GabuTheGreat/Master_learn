@@ -41,7 +41,7 @@ ggcorrplot(corr, hc.order = TRUE,
 #Try this is in our data
 # Correlation matrix
 corr_data <- read.csv("~/learn/corr_data.csv", as.is = TRUE, header = TRUE)
-cleaned_data <- corr_data %>% na.omit()
+cleaned_data <- corr_data %>% na.omit() %>% select(functionality,TC_Adoption,promoter_rating,dispensers_with_issues)
 corr <- round(cor(cleaned_data), 1)
 
 # Plot correlation plot 
