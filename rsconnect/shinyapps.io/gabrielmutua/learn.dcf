@@ -1,0 +1,13 @@
+name: learn
+title: learn
+username:
+account: gabrielmutua
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 406248
+bundleId: 1550763
+url: https://gabrielmutua.shinyapps.io/learn/
+when: 1535035538.5172
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|corr_data.csv|dsw_data.csv|dsw_graphs.R|MS_cleaned.csv|Sample_codes.R
